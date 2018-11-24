@@ -5,4 +5,5 @@ def levitation_quiz
     spellname = gets.chomp
     break if spellname = "Wingardium Leviosa"
 	end
+  puts "You passed the quiz!"
 end
